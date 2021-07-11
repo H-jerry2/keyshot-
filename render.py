@@ -3,3 +3,4 @@ for i in range(10):
     opts = lux.getRenderOptions()
 #    opts.setMaxTimeRendering(10)
     lux.renderImage("E:/学校资源/表格/KeyShot-Scripts-master/{}.png".format(i+1), width=2560, height=2560, opts=opts)
+    # "E:/学校资源/表格/KeyShot-Scripts-master/" 为保持路径
